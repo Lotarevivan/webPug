@@ -1,7 +1,5 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const pages = require('./multiplePages')
-// console.log(pages)
 const path = require("path");
 const mode =
   process.env.NODE_ENV === "production" ? "production" : "development";
@@ -40,9 +38,6 @@ module.exports = {
                 plugins: [
                   [
                     "postcss-preset-env",
-                    {
-                      // Options
-                    },
                   ],
                 ],
               },

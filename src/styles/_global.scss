@@ -1,0 +1,11 @@
+$primaryColor: gray;
+$secondaryColor: blue;
+html{ 
+    font-family: Roboto; //тест загрузки шрифтов
+}
+body {
+    color: $primaryColor;
+    background: url('../assset/img/javascript-logo-svgrepo-com.svg'); //тест загрузки изображений
+    min-height: 300px;
+}
+
